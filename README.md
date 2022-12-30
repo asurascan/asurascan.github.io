@@ -1,4 +1,4 @@
-# Solid
+# Asurascan APK - Free Android manga reader app
 
 A landing page template.
 
