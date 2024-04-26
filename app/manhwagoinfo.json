@@ -88,7 +88,17 @@
       "rules": [
         ".ads, .ad, .advert, .abierto, .code-block",
         "html > iframe"
-      ]
+      ],
+      "shouldOverrideUrlLoading": {
+        "your-sugar-girls": 1,
+        "apkfastdownload": 1,
+        "bro.bigitrackr": 1,
+        "tst.izpodvipodverta": 1,
+        "16zoqtq3eowz.top": 1,
+        "best-free-apps": 1,
+        "storyrelatively": 1,
+        "top-app-store.com": 1
+      }
     },
     "appinfo": {
       "showmes": false,
