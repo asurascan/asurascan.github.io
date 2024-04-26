@@ -84,7 +84,11 @@
     "block_ads": {
       "common": ".*google-analytics.com.* | .*doubleclick.net.* | .*googlesyndication.com.*",
       "aniwatch": ".*e.dtscout.com.* | .*intellectualhide.com.*",
-      "tinyzonetv": ".*sharethis.com.*"
+      "tinyzonetv": ".*sharethis.com.*",
+      "rules": [
+        ".ads, .ad, .advert, .abierto, .code-block",
+        "html > iframe"
+      ]
     },
     "appinfo": {
       "showmes": false,
