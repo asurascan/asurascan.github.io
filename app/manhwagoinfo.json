@@ -7,7 +7,8 @@
     },
     "matchResourceImage": "https?:\\/\\/[^ \\n]*\\/($matchCondition)\\/[^ \\n]*\\.(?:jpg|jpeg|png|webp)\\b",
     "matchConditions": [
-      "WP-manga"
+      "WP-manga",
+      "usc1.contabostorage.com"
     ],
     "clearComicsName": [
       
