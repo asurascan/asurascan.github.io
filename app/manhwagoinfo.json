@@ -5,6 +5,10 @@
       "listitem": "_listUl",
       "tagnameitem": "li"
     },
+    "matchResourceImage": "https?:\\/\\/[^ \\n]*\\/($matchCondition)\\/[^ \\n]*\\.(?:jpg|jpeg|png|webp)\\b",
+    "matchConditions": [
+      "WP-manga"
+    ],
     "clearComicsName": [
       
     ],
