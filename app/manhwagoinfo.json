@@ -11,7 +11,10 @@
       "usc1.contabostorage.com"
     ],
     "urlRootInfo": {
-      "reaperscans.top": "https://reaperscans.top/series/"
+      "reaperscans.top": {
+        "pageInfo": "https://reaperscans.top/series/",
+        "regex": "^([\\w-]+)-chapter-\\d+$"
+      }
     },
     "clearComicsName": [
       
