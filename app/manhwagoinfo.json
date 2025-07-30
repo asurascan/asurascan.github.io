@@ -19,7 +19,7 @@
       },
       "comick.io": {
         "pageInfo": "https://comick.io/",
-        "regex": "[^ \\n]*",
+        "regex": "",
         "regexTitle": "(?<=- )([^|]+?)(?=\\s*\\|)",
         "customFileName": "\\d+-[^ \\n]*",
         "customHostName": "meo\\.comick\\.pictures"
