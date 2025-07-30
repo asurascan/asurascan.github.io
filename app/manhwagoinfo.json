@@ -5,7 +5,7 @@
       "listitem": "_listUl",
       "tagnameitem": "li"
     },
-    "matchResourceImage": "https?:\\/\\/[^ \\n]*\\/($matchCondition)\\/[^ \\n]*$customFileName\\.(?:jpg|jpeg|png|webp)\\b",
+    "matchResourceImage": "https?:\\/\\/[^ \\n]*\\/($matchCondition)\\/$customFileName\\.(?:jpg|jpeg|png|webp)\\b",
     "matchConditions": [
       "WP-manga",
       "usc1.contabostorage.com",
