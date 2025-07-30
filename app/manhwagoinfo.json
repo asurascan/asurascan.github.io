@@ -15,7 +15,8 @@
       "reaperscans.top": {
         "pageInfo": "https://reaperscans.top/series/",
         "regex": "^([\\w-]+)-chapter-\\d+$",
-        "regexTitle": "(?<=Read\\s)(.*?)(?=,\\s*chapter\\s*\\d+)"
+        "regexTitle": "(?<=Read\\s)(.*?)(?=,\\s*chapter\\s*\\d+)",
+        "customHostName": "i\\d+\\.wp\\.com"
       },
       "asuracomic.net": {
         "pageInfo": "https://asuracomic.net/series/",
