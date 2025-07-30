@@ -18,6 +18,13 @@
         "regexTitle": "(?<=Read\\s)(.*?)(?=,\\s*chapter\\s*\\d+)",
         "customHostName": "i\\d+\\.wp\\.com"
       },
+      "comick.io": {
+        "pageInfo": "https://comick.io/",
+        "regex": "[^ \\n]*",
+        "regexTitle": "(?<=- )([^|]+?)(?=\\s*\\|)",
+        "customFileName": "\\d+-[^ \\n]*",
+        "customHostName": "meo\\.comick\\.pictures"
+      },
       "asuracomic.net": {
         "pageInfo": "https://asuracomic.net/series/",
         "regex": "series\\/([^\\/]+)\\/chapter\\/\\d+",
