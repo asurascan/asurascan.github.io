@@ -5,10 +5,11 @@
       "listitem": "_listUl",
       "tagnameitem": "li"
     },
-    "matchResourceImage": "https?:\\/\\/[^ \\n]*\\/($matchCondition)\\/[^ \\n]*\\.(?:jpg|jpeg|png|webp)\\b",
+    "matchResourceImage": "https?:\\/\\/[^ \\n]*\\/($matchCondition)\\/[^ \\n]*$customFileName\\.(?:jpg|jpeg|png|webp)\\b",
     "matchConditions": [
       "WP-manga",
-      "usc1.contabostorage.com"
+      "usc1.contabostorage.com",
+      "storage\\/media"
     ],
     "urlRootInfo": {
       "reaperscans.top": {
@@ -19,7 +20,8 @@
       "asuracomic.net": {
         "pageInfo": "https://asuracomic.net/series/",
         "regex": "series\\/([^\\/]+)\\/chapter\\/\\d+",
-        "regexTitle": "^.*?(?=\\s+Chapter\\s+\\d+)"
+        "regexTitle": "^.*?(?=\\s+Chapter\\s+\\d+)",
+        "customFileName": "(\\d+-optimized)"
       }
     },
     "clearComicsName": [
