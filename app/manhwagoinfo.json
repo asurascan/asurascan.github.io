@@ -5,18 +5,17 @@
       "listitem": "_listUl",
       "tagnameitem": "li"
     },
-    "matchResourceImage": "https?:\\/\\/$customHostName\\/($matchCondition)\\/$customFileName\\.(?:jpg|jpeg|png|webp)\\b",
-    "matchConditions": [
-      "WP-manga",
-      "usc1.contabostorage.com",
-      "storage\\/media"
-    ],
+    "matchResourceImage": "https?:\\/\\/$customHostName\\/$matchCondition$customFileName\\.(?:jpg|jpeg|png|webp)\\b",
     "urlRootInfo": {
       "reaperscans.top": {
         "pageInfo": "https://reaperscans.top/series/",
         "regex": "^([\\w-]+)-chapter-\\d+$",
         "regexTitle": "(?<=Read\\s)(.*?)(?=,\\s*chapter\\s*\\d+)",
-        "customHostName": "i\\d+\\.wp\\.com"
+        "customHostName": "i\\d+\\.wp\\.com",
+        "matchConditions": [
+          "WP-manga",
+          "usc1.contabostorage.com"
+        ]
       },
       "comick.io": {
         "pageInfo": "https://comick.io/",
@@ -30,7 +29,10 @@
         "regex": "series\\/([^\\/]+)\\/chapter\\/\\d+",
         "regexTitle": "^.*?(?=\\s+Chapter\\s+\\d+)",
         "customFileName": "\\d+\\/conversions\\/(\\d+-optimized)",
-        "customHostName": "gg\\.asuracomic\\.net"
+        "customHostName": "gg\\.asuracomic\\.net",
+        "matchConditions": [
+          "storage\\/media"
+        ]
       }
     },
     "clearComicsName": [
