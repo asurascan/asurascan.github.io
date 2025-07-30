@@ -21,7 +21,7 @@
         "pageInfo": "https://asuracomic.net/series/",
         "regex": "series\\/([^\\/]+)\\/chapter\\/\\d+",
         "regexTitle": "^.*?(?=\\s+Chapter\\s+\\d+)",
-        "customFileName": "[^ \\n]*\/(\\d+-optimized)"
+        "customFileName": "[^ \\n]*\\/(\\d+-optimized)"
       }
     },
     "clearComicsName": [
