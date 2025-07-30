@@ -14,7 +14,7 @@
       "reaperscans.top": {
         "pageInfo": "https://reaperscans.top/series/",
         "regex": "^([\\w-]+)-chapter-\\d+$",
-        "regexTitle": "^Read\\s+(.*?)\\s*,\\s*chapter\\s*\\d+"
+        "regexTitle": "(?<=Read\\s)(.*?)(?=,\\s*chapter\\s*\\d+)"
       }
     },
     "clearComicsName": [
