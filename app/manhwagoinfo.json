@@ -39,6 +39,9 @@
       
     ],
     "ageFlag": "18",
+    "preventFlagsCollection": [
+      "18"
+    ],
     "comicsBlock": {
       "Return of the Mount Hua Sect": "https://comic.naver.com/webtoon/list?titleId=769209",
       "The Return of the Crazy Demon": "https://comic.naver.com/webtoon/list?titleId=776601",
